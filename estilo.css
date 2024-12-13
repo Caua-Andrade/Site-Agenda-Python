@@ -1,24 +1,30 @@
+/* Reset básico */
 * {
     padding: 0;
     margin: 0;
 }
 
+/* Corpo */
 body {
     font-size: 1em;
     font-family: Courier, 'New Lucida', 'Console Monaco';
     background: #e6e6e6;
 }
 
+/* Parágrafos */
 p {
     font-size: 1.110em;
     border-radius: 25px;
 }
 
+/* Linhas horizontais */
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 5px solid #ffffff;
 }
+
+/* Cabeçalho */
 #area-cabecalho {
     background-color: #f7b600;
     padding: 15px;
@@ -30,15 +36,27 @@ hr {
     font-size: 1.10em;
 }
 
+/* Menu de navegação */
+#area-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 1.1em;
+    transition: 0.4s;
+}
+
+#area-menu a:hover {
+    background-color: #fff;
+    color: #f7b600;
+    border-radius: 25px;
+}
+
+/* Principal */
 #area-principal {
     background: white;
     width: 920px;
     margin: 0 auto;
     padding: 15px;
-}
-
-#area-lateral {
-    
 }
 
 #area-resumos {
@@ -51,6 +69,7 @@ hr {
     float: right;
 }
 
+/* Resumo */
 .resumo {
     padding: 20px;
     margin-bottom: 20px;
@@ -63,6 +82,7 @@ hr {
     margin-bottom: 20px;
 }
 
+/* Rodapé */
 #rodape {
     clear: both;
     text-align: center;
@@ -70,38 +90,23 @@ hr {
     background: #ccc;
 }
 
+/* Negrito no título */
 .negrito {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-}
-
+/* Links */
 a:link, a:visited {
     color: #f7b600;
 }
 
 a:hover {
     text-decoration: underline;
-
 }
 
-#area-cabecalho a:link, #area-cabecalho a:visited {
-    color: #fff;
-    padding: 8px 12px;
-}
-
-#area-cabecalho a:hover {
-    color: #f7b600;
-    background: #fff;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: 0.4s;
-}
-
+/* Títulos */
 h1 {
     color: #4e4e4e;
     font-size: 2.5em;
@@ -122,25 +127,30 @@ h3 {
     color: white;
 }
 
+/* Itens de lista */
 li {
     font-weight: 900;
 }
 
+/* Tabelas */
 table {
     margin-top: 40px;
 }
 
+/* Patrocinadores */
 #patrocinadores {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
 }
 
+/* Espaçamento extra */
 .espaco {
     font-size: 1.110em;
     margin-left: 10px;
 }
 
+/* Nomes */
 .nomes {
     font-size: 28px;
     font-weight: 600;
