@@ -30,7 +30,6 @@ Permite editar as informações de tarefas existentes.
 
 - **HTML5**: Estrutura do site.
 - **CSS3**: Estilo e layout.
-- **JavaScript (opcional)**: Funcionalidades dinâmicas.
 - **Python**: Backend para processamento e manipulação de dados.
 
 ## Estrutura do Projeto
