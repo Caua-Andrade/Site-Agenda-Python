@@ -52,17 +52,6 @@ Permite editar as informações de tarefas existentes.
 2. Abra o arquivo `index.html` em um navegador de sua escolha.
 3. Explore as funcionalidades do sistema diretamente no navegador.
 
-### Executando Localmente com Python
-
-1. Certifique-se de ter o Python instalado na versão 3.8 ou superior.
-2. Inicie um servidor HTTP local no diretório do projeto:
-
-   ```bash
-   python -m http.server
-   ```
-
-3. Acesse o endereço `http://localhost:8000` no navegador.
-
 ## Suporte ao Projeto
 
 Se você gostou do projeto e deseja contribuir para sua manutenção, considere fazer uma doação via Pix:
